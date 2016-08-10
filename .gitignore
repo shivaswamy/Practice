@@ -1,0 +1,8 @@
+.DS_Store
+
+#Haskel generated files files
+*.hi
+*.o
+
+#Java/scala generated files
+*.class
