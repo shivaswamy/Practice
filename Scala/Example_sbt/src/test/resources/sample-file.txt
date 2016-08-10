@@ -1,0 +1,2 @@
+this is a test string to replace
+new line with '\n'
