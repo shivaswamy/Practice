@@ -1,0 +1,578 @@
+I, [2016-09-05T15:30:29.073687 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T15:30:29.074362 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T15:30:29.074438 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T15:30:29.074460 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T15:30:29.074481 #18781] ERROR -- : 
+I, [2016-09-05T15:30:29.078652 #18781]  INFO -- : Registered expected interaction GET /alligators/Mary
+D, [2016-09-05T15:30:29.078810 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/alligators/Mary",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Mary"
+    }
+  }
+}
+I, [2016-09-05T15:33:11.729431 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T15:33:11.729523 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T15:33:11.729865 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T15:33:11.729890 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T15:33:11.729909 #18781] ERROR -- : 
+I, [2016-09-05T15:33:11.733534 #18781]  INFO -- : Registered expected interaction GET /alligators/Mary
+D, [2016-09-05T15:33:11.733620 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/alligators/Mary",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Mary"
+    }
+  }
+}
+I, [2016-09-05T15:33:52.882096 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T15:33:52.882197 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T15:33:52.882254 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T15:33:52.882277 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T15:33:52.882302 #18781] ERROR -- : 
+I, [2016-09-05T15:33:52.886634 #18781]  INFO -- : Registered expected interaction GET /alligators/Mary
+D, [2016-09-05T15:33:52.886757 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/alligators/Mary",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Mary"
+    }
+  }
+}
+I, [2016-09-05T15:33:59.414129 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T15:33:59.414232 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T15:33:59.414296 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T15:33:59.414313 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T15:33:59.414338 #18781] ERROR -- : 
+I, [2016-09-05T15:33:59.417541 #18781]  INFO -- : Registered expected interaction GET /alligators/Mary
+D, [2016-09-05T15:33:59.417633 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/alligators/Mary",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Mary"
+    }
+  }
+}
+I, [2016-09-05T15:39:05.049589 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T15:39:05.049692 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T15:39:05.049744 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T15:39:05.049757 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T15:39:05.049773 #18781] ERROR -- : 
+I, [2016-09-05T15:39:05.053769 #18781]  INFO -- : Registered expected interaction GET /alligators/Mary
+D, [2016-09-05T15:39:05.053857 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/alligators/Mary",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Mary"
+    }
+  }
+}
+I, [2016-09-05T16:04:00.520903 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T16:04:00.521042 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T16:04:00.521141 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T16:04:00.521167 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T16:04:00.521189 #18781] ERROR -- : 
+I, [2016-09-05T16:04:00.526795 #18781]  INFO -- : Registered expected interaction GET /alligators/Mary
+D, [2016-09-05T16:04:00.526921 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/alligators/Mary",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Mary"
+    }
+  }
+}
+W, [2016-09-05T16:04:00.535276 #18781]  WARN -- : Verifying - actual interactions do not match expected interactions for example "". 
+Missing requests:
+	GET /alligators/Mary
+
+
+W, [2016-09-05T16:04:00.535319 #18781]  WARN -- : Missing requests:
+	GET /alligators/Mary
+
+
+I, [2016-09-05T16:20:36.079472 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T16:20:36.079592 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T16:20:36.079647 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T16:20:36.079661 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T16:20:36.079676 #18781] ERROR -- : 
+I, [2016-09-05T16:20:36.083989 #18781]  INFO -- : Registered expected interaction GET /projects
+D, [2016-09-05T16:20:36.084078 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/projects",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "projects": [
+        "project1",
+        "project2"
+      ]
+    }
+  }
+}
+W, [2016-09-05T16:20:36.089766 #18781]  WARN -- : Verifying - actual interactions do not match expected interactions for example "". 
+Missing requests:
+	GET /projects
+
+
+W, [2016-09-05T16:20:36.089794 #18781]  WARN -- : Missing requests:
+	GET /projects
+
+
+I, [2016-09-05T16:21:06.631508 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T16:21:06.631605 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T16:21:06.631666 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T16:21:06.631681 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T16:21:06.631696 #18781] ERROR -- : 
+I, [2016-09-05T16:21:06.635114 #18781]  INFO -- : Registered expected interaction GET /projects
+D, [2016-09-05T16:21:06.635204 #18781] DEBUG -- : {
+  "description": "a request for an alligator",
+  "provider_state": "an alligator with the name Mary exists",
+  "request": {
+    "method": "get",
+    "path": "/projects",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "projects": [
+        "project1",
+        "project2"
+      ]
+    }
+  }
+}
+W, [2016-09-05T16:21:06.639961 #18781]  WARN -- : Verifying - actual interactions do not match expected interactions for example "". 
+Missing requests:
+	GET /projects
+
+
+W, [2016-09-05T16:21:06.639990 #18781]  WARN -- : Missing requests:
+	GET /projects
+
+
+I, [2016-09-05T16:23:30.724596 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T16:23:30.724758 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T16:23:30.724836 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T16:23:30.724860 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T16:23:30.724883 #18781] ERROR -- : 
+I, [2016-09-05T16:23:42.876057 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T16:23:42.876153 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T16:23:42.876232 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T16:23:42.876249 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T16:23:42.876265 #18781] ERROR -- : 
+I, [2016-09-05T16:23:42.882031 #18781]  INFO -- : Received request GET /projects
+D, [2016-09-05T16:23:42.882120 #18781] DEBUG -- : {
+  "path": "/projects",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "Connection": "keep-alive",
+    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-09-05T16:23:42.882332 #18781]  INFO -- : Found matching response for GET /projects
+D, [2016-09-05T16:23:42.882414 #18781] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "projects": [
+      "project1",
+      "project2"
+    ]
+  }
+}
+W, [2016-09-05T16:23:42.887510 #18781]  WARN -- : Verifying - actual interactions do not match expected interactions for example "". 
+Unexpected requests:
+	DELETE /session
+	DELETE /session
+
+
+W, [2016-09-05T16:23:42.887568 #18781]  WARN -- : Unexpected requests:
+	DELETE /session
+	DELETE /session
+
+
+I, [2016-09-05T16:27:29.366592 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T16:27:29.366687 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T16:27:29.366757 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T16:27:29.366772 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T16:27:29.366788 #18781] ERROR -- : 
+I, [2016-09-05T16:27:29.372364 #18781]  INFO -- : Received request GET /projects
+D, [2016-09-05T16:27:29.372439 #18781] DEBUG -- : {
+  "path": "/projects",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "Connection": "keep-alive",
+    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-09-05T16:27:29.372559 #18781]  INFO -- : Found matching response for GET /projects
+D, [2016-09-05T16:27:29.372642 #18781] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "projects": [
+      "project1",
+      "project2"
+    ]
+  }
+}
+I, [2016-09-05T16:27:48.397901 #18781]  INFO -- : Received request DELETE /session
+D, [2016-09-05T16:27:48.397994 #18781] DEBUG -- : {
+  "path": "/session",
+  "query": "",
+  "method": "delete",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "127.0.0.1:1234",
+    "Connection": "keep-alive",
+    "Origin": "http://localhost:9876",
+    "X-Pact-Mock-Service": "true",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Accept": "*/*",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+E, [2016-09-05T16:27:48.398057 #18781] ERROR -- : No matching interaction found for DELETE /session
+E, [2016-09-05T16:27:48.398072 #18781] ERROR -- : Interaction diffs for that route:
+E, [2016-09-05T16:27:48.398087 #18781] ERROR -- : 
+I, [2016-09-05T16:27:48.403684 #18781]  INFO -- : Received request GET /projects
+D, [2016-09-05T16:27:48.403780 #18781] DEBUG -- : {
+  "path": "/projects",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "Connection": "keep-alive",
+    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+    "Referer": "http://localhost:9876/context.html",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2016-09-05T16:27:48.403916 #18781]  INFO -- : Found matching response for GET /projects
+D, [2016-09-05T16:27:48.403977 #18781] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "projects": [
+      "project1",
+      "project2"
+    ]
+  }
+}
+W, [2016-09-05T16:27:48.408204 #18781]  WARN -- : Verifying - actual interactions do not match expected interactions for example "". 
+Unexpected requests:
+	DELETE /session
+	DELETE /session
+	DELETE /session
+	DELETE /session
+
+
+W, [2016-09-05T16:27:48.408234 #18781]  WARN -- : Unexpected requests:
+	DELETE /session
+	DELETE /session
+	DELETE /session
+	DELETE /session
+
+

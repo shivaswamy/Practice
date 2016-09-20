@@ -1,0 +1,24 @@
+{
+  "name": "consumer-jasmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "jasmine": "^2.5.0",
+    "karma": "^1.2.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "pact-consumer-js-dsl": "^0.2.2",
+    "superagent": "^2.2.0",
+    "watchify": "^3.7.0"
+  }
+}
