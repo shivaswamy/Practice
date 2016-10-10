@@ -13,6 +13,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/components/js/App.js</code> and save to reload.
         </p>
+        <a href='http://www.google.com'>Google</a>
       </div>
     );
   }
