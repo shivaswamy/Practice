@@ -11,11 +11,17 @@ describe('<App />', () => {
         expect(wrapper.find('h2').text()).toEqual('Welcome to React')
     })
 
-    it('has a link to google', () => {
+    it('has a link to Increment', () => {
         const wrapper = mount(<App />)
         const link = wrapper.find('a')
-        expect(link.prop('href')).toEqual('http://www.google.com')
-        link.simulate('click')
+        expect(link.text()).toEqual('Increment')
+    })
 
+    it('should increment clicks', () => {
+        const wrapper = mount(<App />)
+        expect(wrapper.find('.clicks-0').length).toEqual(1)
+        wrapper.find('a').simulate('click');
+        expect(wrapper.find('.clicks-0').length).toEqual(0)
+        expect(wrapper.find('.clicks-1').length).toEqual(1)
     })
 })

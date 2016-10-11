@@ -1,9 +1,17 @@
-import React, { Component } from 'react';
-import logo from '../../images/logo.svg';
-import '../css/App.css';
+import React, {Component} from 'react'
+import {Router, Route, hashHistory} from 'react-router'
+import logo from '../../images/logo.svg'
+import '../css/App.css'
+import Home from './Home'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {count: 0}
+  }
+
   render() {
+    const {count} = this.state
     return (
       <div className="App">
         <div className="App-header">
@@ -13,7 +21,10 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/components/js/App.js</code> and save to reload.
         </p>
-        <a href='http://www.google.com'>Google</a>
+        <div className={`clicks-${count}`}>
+          {count} clicks
+        </div>
+        <a onClick={() => this.setState({count: count + 1})}>Increment</a>
       </div>
     );
   }
