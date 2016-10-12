@@ -1,4 +1,6 @@
 import React, {Component}  from 'react'
+import logo from '../../images/logo.svg'
+import '../css/App.css'
 
 class Home extends Component {
     constructor(props) {
@@ -20,7 +22,7 @@ class Home extends Component {
                 <div className={`clicks-${count}`}>
                     {count} clicks
                 </div>
-                <a onClick={() => this.setState({count: count + 1})}>Increment</a>
+                <a onClick={() => this.setState({count: count + 1})}>Click to Increment</a>
             </div>
         );
     }
