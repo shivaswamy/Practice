@@ -1,5 +1,6 @@
 import React, {Component}  from 'react'
 import logo from '../../images/logo.svg'
+import {Link} from 'react-router'
 import '../css/App.css'
 
 class Home extends Component {
@@ -23,6 +24,8 @@ class Home extends Component {
                     {count} clicks
                 </div>
                 <a onClick={() => this.setState({count: count + 1})}>Click to Increment</a>
+                <Link to='/secondhome'>Go to Second Home</Link>
+
             </div>
         );
     }
